@@ -13,13 +13,5 @@ export class AppComponent {
 
   ngOnInit() {
 
-      this.dataService.getEvents().subscribe(data => {
-          if (data) {
-              console.log(data);
-          }
-      });
-/*      this.dataService.auth().subscribe(data => {
-          console.log(data);
-      });*/
   }
 }
