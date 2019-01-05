@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { DataService } from './services/data.service';
 
 @Component({
   selector: 'app-root',
@@ -7,11 +6,6 @@ import { DataService } from './services/data.service';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'test-angular-ionic-protractor';
 
-  constructor(private dataService: DataService) {}
-
-  ngOnInit() {
-
-  }
+  constructor() {}
 }
