@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { AngularDraggableModule } from 'angular2-draggable';
 
 import { EventsRoutingModule } from './events-routing.module';
 import { EventCardComponent } from './event-card/event-card.component';
@@ -14,7 +15,8 @@ import { EventsComponent } from './events.component';
   ],
   imports: [
     CommonModule,
-      EventsRoutingModule
+      EventsRoutingModule,
+      AngularDraggableModule
   ]
 })
 export class EventsModule { }
